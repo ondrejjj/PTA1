@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfApp2.Slozka.Add"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2.Slozka"
+        mc:Ignorable="d"
+        Title="Add" Height="450" Width="800">
+    <Grid>
+        <Label Content="Název:" HorizontalAlignment="Left" Margin="95,68,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="ProNazev" HorizontalAlignment="Left" Margin="190,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+        <Label Content="Počet" HorizontalAlignment="Left" Margin="95,121,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="ProPocet" HorizontalAlignment="Left" Margin="190,125,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+
+        <Label Content="Cena:" HorizontalAlignment="Left" Margin="101,183,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="ProCena" HorizontalAlignment="Left" Margin="190,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+
+
+        <Button Content="Uložit" HorizontalAlignment="Left" Margin="65,346,0,0" VerticalAlignment="Top" Width="105" Click="Button_Click_1"/>
+        <Button Content="Zahodit" HorizontalAlignment="Left" Margin="260,346,0,0" VerticalAlignment="Top" Width="105" Click="Button_Click"/>
+
+
+    </Grid>
+</Window>
